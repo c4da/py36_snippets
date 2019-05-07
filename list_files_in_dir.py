@@ -10,7 +10,7 @@ import os
 def loadFiles(subdir, filetype):
     """
     example:
-    dirs = ["iter_threads0", "iter_threads4"]
+    dirs = ["dir1", "dir2"]
 
     file_type = ".dat"
 
