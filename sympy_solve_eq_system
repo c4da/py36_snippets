@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jun 26 15:13:17 2019
+
+@author: cada
+"""
+
+from sympy import symbols, Eq, solve, plot
+#from sympy.plotting import plot as symplot
+
+x, y = symbols('x y')
+
+
+eq1 = Eq(2*x - y - 1)
+eq2 = Eq(x + y - 5)
+
+sol = solve((eq1, eq2),(x, y))
+sol
+
+#plot(y, (x, 0, 10), ylabel='Speed')
+#symplot(eq1)
