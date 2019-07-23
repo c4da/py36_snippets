@@ -39,6 +39,7 @@ th1 = 0.0
 w1 = 1
 
 
+
 # initial state
 state = np.radians([th1, w1])
 y = pos(state,t)
