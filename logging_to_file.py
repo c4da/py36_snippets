@@ -8,5 +8,5 @@ logging.basicConfig(filename=logname,
                             datefmt='%H:%M:%S',
                             level=logging.DEBUG)
 
-logging.info("Running Urban Planning")
-logging.error("Running Urban Planning")
+logging.info("info msg")
+logging.error("error msg")
